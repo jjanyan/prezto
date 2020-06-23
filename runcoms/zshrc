@@ -70,3 +70,6 @@ export PIPENV_VERBOSITY=-1
 
 # autojump
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
+
+# mysql path
+export PATH="/usr/local/opt/mysql@5.6/bin:$PATH"
